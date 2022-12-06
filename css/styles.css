@@ -158,8 +158,8 @@
     order: 1;
     flex-grow: 0;
   }
-  
-  .rect4 {
+ 
+  .rect-4 {
     position: absolute;
     height: 22.02px;
     width: 95.58px;
@@ -210,7 +210,7 @@
     border: 1px solid #cbcdff;
     background: #fff;
   }
-
+ 
   .ellipse-11 {
     position: absolute;
     width: 35.5px;
