@@ -17,21 +17,13 @@
     font-style: normal;
     box-sizing: content-box;
   }
-
+  
   *,
   *::before,
   *::after {
     box-sizing: inherit;
   }
-
-  /* .primary-navigation {
-    display: none;
-  }
-
-  .primary-nav-button {
-    display: none;
-  } */
-
+  
   .header-wrapper {
     position: relative;
     max-width: 375px;
@@ -43,7 +35,7 @@
     justify-content: center;
     overflow: hidden;
   }
-
+  
   .header {
     position: absolute;
     width: 100%;
@@ -58,7 +50,7 @@
     order: 0;
     flex-grow: 0;
   }
-
+  
   .logo-placeholder {
     /* Auto layout */
     width: 100px;
@@ -68,7 +60,7 @@
     align-items: center;
     text-align: center;
   }
-
+  
   .logo {
     /* My Logo */
     position: relative;
@@ -84,7 +76,7 @@
     order: 0;
     flex-grow: 0;
   }
-
+  
   .main-menu-icon-wrapper {
     /*  layout */
     position: relative;
@@ -95,7 +87,7 @@
     justify-content: center;
     align-items: center;
   }
-
+  
   .main-menu-icon {
     /* Auto layout */
     position: relative;
@@ -105,7 +97,7 @@
     order: 0;
     flex-grow: 0;
   }
-
+  
   .headline-section {
     /* Auto layout */
     position: relative;
@@ -121,7 +113,7 @@
     order: 1;
     flex-grow: 0;
   }
-
+  
   .primary-text {
     /* Primary Text */
     position: relative;
@@ -139,7 +131,7 @@
     order: 0;
     flex-grow: 0;
   }
-
+  
   .intro-text {
     /* Introduction Text */
     position: relative;
@@ -158,7 +150,7 @@
     order: 1;
     flex-grow: 0;
   }
- 
+  
   .rect-4 {
     position: absolute;
     height: 22.02px;
@@ -170,7 +162,7 @@
     background: #ebebff;
     overflow-x: hidden;
   }
-
+  
   .ellipse-3 {
     position: absolute;
     height: 50px;
@@ -179,7 +171,7 @@
     top: 152.24px;
     overflow: hidden;
   }
-
+  
   .ellipse-15 {
     position: absolute;
     height: 15px;
@@ -190,7 +182,7 @@
     background: #fff;
     box-sizing: border-box;
   }
-
+  
   .ellipse-14 {
     position: absolute;
     height: 11px;
@@ -200,7 +192,7 @@
     border: 1px solid #cbcdff;
     background: #fff;
   }
-
+  
   .ellipse-8 {
     position: absolute;
     height: 15px;
@@ -210,7 +202,7 @@
     border: 1px solid #cbcdff;
     background: #fff;
   }
- 
+  
   .ellipse-11 {
     position: absolute;
     width: 35.5px;
@@ -219,7 +211,7 @@
     top: 153.47px;
     transform: rotate(0.88deg);
   }
-
+  
   .rect-6 {
     position: absolute;
     height: 9.3px;
@@ -229,7 +221,7 @@
     background: #ebebff;
     transform: rotate(-46.14deg);
   }
-
+  
   .ellipse-12 {
     position: absolute;
     height: 12.07px;
@@ -238,7 +230,7 @@
     top: 539.69px;
     transform: rotate(4.88deg);
   }
-
+  
   .ellipse-13 {
     position: absolute;
     height: 30.1px;
@@ -247,7 +239,7 @@
     top: 550.44px;
     transform: rotate(12.41deg);
   }
-
+  
   .ellipse-4 {
     position: absolute;
     height: 20px;
@@ -255,7 +247,7 @@
     left: 237px;
     top: 648.1px;
   }
-
+  
   .rect-5 {
     position: absolute;
     height: 12.18px;
@@ -265,7 +257,7 @@
     transform: rotate(23.34deg);
     background: #ebebff;
   }
-
+  
   .ellipse-5 {
     position: absolute;
     height: 11px;
@@ -274,7 +266,7 @@
     top: 150.81px;
     transform: rotate(52.97deg);
   }
-
+  
   .rect-7 {
     position: absolute;
     height: 4.73px;
@@ -284,7 +276,7 @@
     transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
     background: #6070ff;
   }
-
+  
   .social-media-text {
     position: relative;
     width: 150px;
@@ -299,7 +291,7 @@
     order: 2;
     flex-grow: 0;
   }
-
+  
   ul.social-media-icons {
     position: relative;
     width: 170px;
@@ -314,7 +306,7 @@
     order: 3;
     flex-grow: 0;
   }
-
+  
   .social-icon {
     position: relative;
     width: 19.99px;
