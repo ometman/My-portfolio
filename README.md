@@ -1,4 +1,4 @@
-This is a Microverse Project: Setup Mobile-first.
+
 
 <a name="readme-top"></a>
 
@@ -7,7 +7,7 @@ This is a Microverse Project: Setup Mobile-first.
   <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b> Microverse Porfolio Project Setup Mobile-first README </b></h3>
+  <h3><b> Microverse Project: Setup Mobile-first README </b></h3>
 
 </div>
 
@@ -41,7 +41,7 @@ This is a Microverse Project: Setup Mobile-first.
 
 <!-- Project Description in 1 or 2 sentences -->
 
-**My Portfolio** is a simple website that gives information about yourself, shows your portfolio as a web developer and how your can be reached.
+**My Portfolio** is a simple website that gives information about yourself, shows your portfolio as a web developer and how you can be reached.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,7 +60,7 @@ Using Figma design, the coding work was done with visual studio code.
 <details>
   <summary>Visual Studio Code</summary>
   <ul>
-    <li>Linters for CSS and HTML</li>
+    <li> Microverse Linters for CSS and HTML</li>
   </ul>
 </details>
 
@@ -78,9 +78,9 @@ Using Figma design, the coding work was done with visual studio code.
 
 -**The toolbar section for navigation**
 - **The headline section**
-- **Projects section**
+<!--- **Projects section**
 -**Contact Section**
--**About the developer**
+-**About the developer** -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,6 +101,7 @@ A link will be made available soon.
 ## 💻 Getting Started <a name="getting-started"></a>
 
 <!-- Describe how a new developer could make use of your project.-->
+As a developer, you can use this project to begin a site that would give information, as a reference, to clients about your professional and technical skills in developing web applications.
 
 ### Prerequisites
 
@@ -166,8 +167,9 @@ Any web hosting service. Example: gcloud, aws etc
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- 1. **A project request form**
-- 2. **A live chat bot**
+- 1. **Project section**
+- 2. **About Section**
+- 3. **Contact section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +177,7 @@ Any web hosting service. Example: gcloud, aws etc
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, suggesstions, issues, and feature requests are welcome!
+Contributions, suggestions, issues, and feature requests are welcome!
 
 <!--Feel free to check the [issues page](../../issues/).-->
 
@@ -193,7 +195,7 @@ If you like this project, do not hesitate to support by contacting me at the soc
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank full-time students of Microverse expecially my learning partners, coding partners, standup team, my mentor and all the student success and support staff. They inspired this project.
+I would like to thank full-time students of Microverse expecially my learning partners, coding partners, standup team and all the student success and support staff. They inspired this project. Thanks to my mentor Mr. Doku.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +205,7 @@ I would like to thank full-time students of Microverse expecially my learning pa
 
 - **Can I use this project?**
 
-  - You can do so with permission from the Author
+  - Yes, but you can do so with permission from the Author
 
 - **Can I download and modify the code**
 
