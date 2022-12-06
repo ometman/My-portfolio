@@ -7,7 +7,7 @@ This is a Microverse Project: Setup Mobile-first.
   <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b> MY PORTFOLIO PROJECT README </b></h3>
+  <h3><b> Microverse Porfolio Project Setup Mobile-first README </b></h3>
 
 </div>
 
@@ -41,14 +41,14 @@ This is a Microverse Project: Setup Mobile-first.
 
 <!-- Project Description in 1 or 2 sentences -->
 
-**My Portfolio** is a simple website that greets show my portfolio as a web developer.
+**My Portfolio** is a simple website that gives information about yourself, shows your portfolio as a web developer and how your can be reached.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <!-- Describe the tech stack and include only the relevant sections that apply to your project.-->
-Using Figma design, the work was done with visual studio code.
+Using Figma design, the coding work was done with visual studio code.
 
 <details>
   <summary>Client</summary>
@@ -60,16 +60,17 @@ Using Figma design, the work was done with visual studio code.
 <details>
   <summary>Visual Studio Code</summary>
   <ul>
-    <li><a href="https://expressjs.com/"></a></li>
+    <li>Linters for CSS and HTML</li>
   </ul>
 </details>
 
+<!--
 <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
@@ -77,9 +78,9 @@ Using Figma design, the work was done with visual studio code.
 
 -**The toolbar section for navigation**
 - **The headline section**
-- **Projects understaken**
+- **Projects section**
 -**Contact Section**
--**About the developer, that's me**
+-**About the developer**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,8 +89,9 @@ Using Figma design, the work was done with visual studio code.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can access the site via the link below:
-https://github.com/ometman/My-Portfolio
+A link will be made available soon.
+
+<!--https://github.com/ometman/My-Portfolio -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -100,7 +102,6 @@ https://github.com/ometman/My-Portfolio
 
 <!-- Describe how a new developer could make use of your project.-->
 
-Access to the the website is very simple.
 ### Prerequisites
 
 In order to run this project you need:
@@ -192,7 +193,7 @@ If you like this project, do not hesitate to support by contacting me at the soc
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Chandan and Ike Dennis for encouraging and inspiring this project.
+I would like to thank full-time students of Microverse expecially my learning partners, coding partners, standup team, my mentor and all the student success and support staff. They inspired this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
