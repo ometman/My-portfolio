@@ -50,7 +50,6 @@
     height: 48px;
     top: 44px;
     background: #fff;
-    /* auto arrange */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,7 +160,6 @@
   }
   
   .rect-4 {
-    /* headline section images */
     position: absolute;
     height: 22.02px;
     width: 95.58px;
@@ -179,8 +177,6 @@
     width: 50px;
     right: -12px;
     top: 152.24px;
-    
-    
     overflow: hidden;
   }
 
@@ -290,7 +286,6 @@
   }
 
   .social-media-text {
-    /* let's connect */   
     position: relative;
     width: 150px;
     height: 24px;
@@ -306,7 +301,6 @@
   }
 
   ul.social-media-icons {
-    /* Social Media */
     position: relative;
     width: 170px;
     height: 24px;
@@ -322,7 +316,6 @@
   }
 
   .social-icon {
-    /* Vector */
     position: relative;
     width: 19.99px;
     height: 19.99px;
