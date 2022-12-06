@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     background: #e5e5e5;
-    font-family: "Poppins", "sans-serif";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     box-sizing: content-box;
   }
@@ -34,13 +34,11 @@
 
   .header-wrapper {
     position: relative;
-    
     /* supporting the image width */
     max-width: 375px;
     height: 718px;
-    margin: 0px auto 0px auto;
-    
-    /* padding: 0px 24px 0px 24px; */
+    margin: 0 auto 0 auto;
+    delete space
     background-image: url("/images/header-background-mobile.png");
     display: flex;
     align-items: center;
@@ -53,8 +51,7 @@
     width: 100%;
     height: 48px;
     top: 44px;
-    background: #ffffff;
-    
+    background: #fff;
     /* auto arrange */
     display: flex;
     flex-direction: row;
@@ -69,8 +66,8 @@
     /* Auto layout */
     width: 100px;
     height: 40px;
-    padding: 0px 24px;
-    
+    padding: 0 24px;
+    delete
     /* auto position */
     display: flex;
     align-items: center;
@@ -84,13 +81,11 @@
     height: 20px;
     font-size: 18px;
     line-height: 20px;
-    
     /* Logo text color */
     color: #6070ff;
     display: flex;
     align-items: center;
     text-align: center;
-
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -113,7 +108,6 @@
     position: relative;
     width: 24px;
     height: 24px;
-    
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -126,7 +120,7 @@
     height: 604px;
     max-width: 100%;
     top: 35px;
-    border-radius: 0px;
+    border-radius: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +136,7 @@
     height: 150px;
     max-width: 100%;
     border-radius: nullpx;
-    padding: 114px 24px 0px 24px;
+    padding: 114px 24px 0 24px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -163,7 +157,7 @@
     max-width: 100%;
     
     /* border-radius: nullpx; */
-    padding: 0px 24px 0px 24px;
+    padding: 0 24px 0 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -196,7 +190,6 @@
     position: absolute;
     height: 50px;
     width: 50px;
-    
     /* left: 323px; */
     right: -12px;
     top: 152.24px;
@@ -251,7 +244,6 @@
     width: 51.99px;
     left: -34px;
     top: 141px;
-    
     background: #ebebff;
     transform: rotate(-46.14deg);
   }
@@ -320,7 +312,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    padding: 0px 24px 0px 24px;
+    padding: 0 24px 0 24px;
     color: #7f8cff;
     flex: none;
     order: 2;
@@ -333,8 +325,7 @@
     width: 170px;
     height: 24px;
     left: 24px;
-    
-    /* padding: 0px 24px 0px 24px; */
+    /* padding: 0 24px 0 24px; */
     list-style-type: none;
     display: flex;
     justify-content: space-around;
