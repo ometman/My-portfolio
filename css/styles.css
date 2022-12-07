@@ -13,7 +13,7 @@
     background: #e5e5e5;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    box-sizing: content-box;
+    box-sizing: content-box;  
   }
 
   *,
@@ -22,16 +22,26 @@
     box-sizing: inherit;
   }
 
-  .main-header {
+  .head-section {
     max-width: 375px;
     height: 718px;
     margin: 0 auto 0 auto;
-    background: url("/images/header-background-mobile.png") no-repeat;
     display: flex;
     justify-content: center;
+    /* overflow: hidden; */
     flex: none;
     order: 0;
     flex-grow: 0;
+    background: url("/images/header-background-mobile.png") no-repeat;
+  }
+
+  .header {
+    max-width: 375px;
+    height: 50px;
+    top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-bar {
