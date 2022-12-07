@@ -1,0 +1,321 @@
+/* styles for Microverse Portfolio Project - Mobile first */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@media screen and (min-width: 375px), (min-width: 600px), (min-width: 1440px) {
+  html,
+  body {
+    max-width: 100%;
+    height: 718px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e5e5;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    box-sizing: content-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .header {
+    max-width: 375px;
+    height: 718px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url("./images/header-background-mobile.png") no-repeat;
+  }
+
+  .nav-bar {
+    /* relative position for background */
+    position: relative;
+    width: 375px;
+    height: 48px;
+    top: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .logo-placeholder {
+    /* Auto layout */
+    width: 100px;
+    height: 40px;
+    padding: 0 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .logo {
+    /* My Logo */
+    width: 76px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+    vertical-align: middle;
+  }
+
+  .main-menu-icon-wrapper {
+    /*  layout */
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-menu-icon {
+    /* Auto layout */
+    width: 24px;
+    height: 24px;
+  }
+
+  .headline-section {
+    /* Auto layout */
+    position: absolute;
+    height: 604px;
+    max-width: 375px;
+    margin: 92px auto 0 auto;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .primary-text {
+    /* Primary Text */
+    position: absolute;
+    max-width: 100%;
+    border-radius: nullpx;
+    top: 74px;
+    padding: 40px 24px 20px 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .intro-text {
+    /* Introduction Text */
+    position: relative;
+    max-width: 375px;
+    top: 82px;
+    padding: 0 24px 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .header-shapes {
+    position: absolute;
+    width: 375px;
+    height: 601px;
+    margin: 0;
+    top: 104px;
+    overflow: hidden;
+  }
+
+  .rect-4 {
+    position: absolute;
+    height: 22.02px;
+    width: 95.58px;
+    left: 297px;
+    top: 65px;
+    transform: rotate(-30deg);
+    background: #ebebff url('/images/header-shapes/Rectangle 4.png') no-repeat;
+  }
+
+  .ellipse-3 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: -12px;
+    top: 54px;
+    background: url('/images/header-shapes/Ellipse 3.png') no-repeat;
+  }
+
+  .ellipse-15 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 53px;
+    top: 546px;
+    border: 1px solid #cbcdff;
+    background: rgb(206, 150, 150) url('/images/header-shapes/Ellipse 15.png') no-repeat;
+    box-sizing: border-box;
+  }
+
+  .ellipse-14 {
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    left: 288px;
+    top: 246px;
+    border: 1px solid #cbcdff;
+    background: #fff url('/images/header-shapes/Ellipse 14.png') no-repeat;
+  }
+
+  .ellipse-8 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 214px;
+    top: 45px;
+    border: 1px solid #cbcdff;
+    background: #fff url('/images/header-shapes/Ellipse 8.png') no-repeat;
+  }
+
+  .ellipse-11 {
+    position: absolute;
+    width: 35.5px;
+    height: 31.25px;
+    left: -11px;
+    top: 47px;
+    transform: rotate(0.88deg);
+    background: url('/images/header-shapes/Ellipse 11.png') no-repeat;
+  }
+
+  .rect-6 {
+    position: absolute;
+    height: 12px;
+    width: 51.99px;
+    left: -35px;
+    top: 9px;
+    background: #ebebff url('/images/header-shapes/Rectangle 6.png') no-repeat;
+    transform: rotate(-46.14deg);
+  }
+
+  .ellipse-12 {
+    position: absolute;
+    height: 12.07px;
+    width: 24.14px;
+    left: 317px;
+    top: 447px;
+    transform: rotate(4.88deg);
+    background: url('/images/header-shapes/Ellipse 12.png') no-repeat;
+  }
+
+  .ellipse-13 {
+    position: absolute;
+    height: 30.1px;
+    width: 30.1px;
+    left: 305.18px;
+    top: 456.44px;
+    transform: rotate(12.41deg);
+    background: url('/images/header-shapes/Ellipse 13.png') no-repeat;
+  }
+
+  .ellipse-4 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 212px;
+    top: 532px;
+    background: url('/images/header-shapes/Ellipse 4.png') no-repeat;
+  }
+
+  .rect-5 {
+    position: absolute;
+    height: 12.18px;
+    width: 68.06px;
+    left: 173px;
+    top: 546px;
+    transform: rotate(23.34deg);
+    background: url('/images/header-shapes/Rectangle 5.png') #ebebff no-repeat;
+  }
+
+  .ellipse-5 {
+    position: absolute;
+    height: 11px;
+    width: 12px;
+    left: 132px;
+    top: 79px;
+    transform: rotate(52.97deg);
+    background: url('/images/header-shapes/Ellipse 5.png') no-repeat;
+  }
+
+  .rect-7 {
+    position: absolute;
+    height: 4.73px;
+    width: 26.26px;
+    left: 129px;
+    top: 76px;
+    transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
+    background: url('/images/header-shapes/Rectangle 7.png') no-repeat;
+    background: #6070ff;
+  }
+
+  .social-media-text {
+    position: absolute;
+    width: 175px;
+    height: 24px;
+    top: 460px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 24px 0 24px;
+    color: #7f8cff;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  ul.social-media-icons {
+    position: absolute;
+    width: 35%;
+    height: 24px;
+    left: 0;
+    top: 500px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .social-icon {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    left: -15px;
+    flex: none;
+    flex-grow: 0;
+  }
+}
