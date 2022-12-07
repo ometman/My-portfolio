@@ -32,7 +32,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    background: url("/images/header-background-mobile.png") no-repeat;
+    background: url("./images/header-background-mobile.png") no-repeat;
   }
 
   .nav-bar {
