@@ -29,6 +29,7 @@
     background: url("/images/header-background-mobile.png") no-repeat;
     display: flex;
     justify-content: center;
+    
     /* overflow: hidden; */
     flex: none;
     order: 0;
