@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: #e5e5e5;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -22,26 +23,16 @@
     box-sizing: inherit;
   }
 
-  .head-section {
+  .header {
     max-width: 375px;
     height: 718px;
     margin: 0 auto 0 auto;
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
     flex: none;
     order: 0;
     flex-grow: 0;
     background: url("/images/header-background-mobile.png") no-repeat;
-  }
-
-  .header {
-    max-width: 375px;
-    height: 50px;
-    top: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .nav-bar {
@@ -105,11 +96,12 @@
     position: absolute;
     height: 604px;
     max-width: 375px;
-    top: 92px;
+    margin: 92px auto 0 auto;
     border-radius: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     gap: 12px;
     flex: none;
     order: 1;
@@ -152,9 +144,10 @@
     position: absolute;
     width: 375px;
     height: 601px;
-    margin: 0 24px 0 24px;
+    margin: 0;
     top: 104px;
     overflow: hidden;
+
   }
 
   .rect-4 {
