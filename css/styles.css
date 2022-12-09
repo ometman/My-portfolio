@@ -401,7 +401,7 @@
     flex-grow: 0;
   }
 
-  project-name {
+  .project-name {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
