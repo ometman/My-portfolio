@@ -97,7 +97,6 @@
   }
 
   .headline-section {
-    /* Auto layout 626*/
     position: relative;
     height: 670px;
     max-width: 375px;
@@ -110,7 +109,6 @@
     flex: none;
     justify-content: center;
     align-content: center;
-    gap: 12px;
     order: 0;
     flex-grow: 0;
     background-color: #fff;
@@ -549,7 +547,6 @@
   }
 
   .about-me-down {
-    /*skill selection*/
     position: relative;
     width: 375px;
     height: 464px;
@@ -581,13 +578,12 @@
   }
 
   .select-size {
-   padding: 0 8px 0 8px;
-   display: inline-flex;
-   align-items: stretch;
+    padding: 0 8px 0 8px;
+    display: inline-flex;
+    align-items: stretch;
   }
 
   .item-icon {
-    /* Auto layout */
     position: relative;
     width: 18px;
     height: 18px;
@@ -595,7 +591,7 @@
 
   ul.language-list {
     position: relative;
-    top: 40px; 
+    top: 40px;
     left: 0;
     margin: 0 48px 0 12px;
     height: 222px;
@@ -620,12 +616,12 @@
     flex-direction: row;
     align-items: center;
     justify-items: stretch;
-    gap: 36px;   
+    gap: 36px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #253858; 
-    flex-wrap: wrap;  
+    color: #253858;
+    flex-wrap: wrap;
     float: none;
     list-style: none;
   }
@@ -638,7 +634,7 @@
     border: none;
     border-radius: 8px;
     background: #6070ff;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    box-shadow: px 8px 16px rgba(64, 83, 252, 0.24);
   }
 
   .button:active {
