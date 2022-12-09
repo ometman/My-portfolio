@@ -604,9 +604,7 @@
     float: none;
   }
 
-  .js-lang,
-  .html-lang,
-  .css-lang {
+  .js-lang, .html-lang, .css-lang {
     height: 66px;
     position: relative;
     width: 100%;
