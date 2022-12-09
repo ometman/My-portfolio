@@ -558,7 +558,7 @@
     align-items: center;
     order: 1;
     flex-grow: 0;
-    top: 230px;
+    top: 20px;
     height: 1263px;
   }
 
@@ -582,7 +582,9 @@
   }
 
   .select-size {
-   padding: 0 24px 0 24px;
+   padding: 0 8px 0 8px;
+   display: inline-flex;
+   align-items: stretch;
   }
 
   .item-icon {
