@@ -578,9 +578,9 @@
   }
 
   .select-size {
-   padding: 0 8px 0 8px;
-   display: inline-flex;
-   align-items: stretch;
+    padding: 0 8px 0 8px;
+    display: inline-flex;
+    align-items: stretch;
   }
 
   .item-icon {
@@ -604,7 +604,9 @@
     float: none;
   }
 
-  .js-lang, .html-lang, .css-lang {
+  .js-lang,
+  .html-lang,
+  .css-lang {
     height: 66px;
     position: relative;
     width: 100%;
@@ -614,12 +616,12 @@
     flex-direction: row;
     align-items: center;
     justify-items: stretch;
-    gap: 36px;   
+    gap: 36px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #253858; 
-    flex-wrap: wrap;  
+    color: #253858;
+    flex-wrap: wrap;
     float: none;
     list-style: none;
   }
