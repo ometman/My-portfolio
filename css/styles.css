@@ -334,7 +334,7 @@
     grid-template-columns: 1fr;
     place-items: center;
     grid-auto-rows: auto;
-    row-gap: 30px;
+    /* row-gap: 30px; */
     background-color: none;
   }
 
@@ -386,8 +386,8 @@
     position: relative;
     width: 295px;
     height: 288px;
-    /* top: -60px; */
     padding: 16px;
+    top: -50px;
     display: grid;
     grid-template-columns: 295px;
     grid-template-rows: 36px, 32px, 76px, 24px, 72px;
@@ -413,9 +413,7 @@
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    background-color: #6070ff;
   }
 
   .pr-type {
@@ -433,10 +431,11 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    background-color: #396df2;
   }
 
   li.state {
-    float: left;
+    float: none;
     padding: 0 36px 0 0;
   }
 
@@ -452,10 +451,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #344563;
-    word-wrap: break-word;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    background-color: #94bc0e;
   }
 
   .pr-button-tag-container {
@@ -465,12 +461,11 @@
     grid-column-start: auto;
     column-gap: 8px;
     width: 203px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+    background-color: #b633b6;
   }
 
   .pr-button-tag {
+    position: inherit;
     width: auto;
     height: 24px;
     font-weight: 500;
