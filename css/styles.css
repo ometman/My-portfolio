@@ -377,14 +377,9 @@
 
   .snapshoot-portfolio {
     position: relative;
-    height: 220px;
-    width: 295px;
     display: flex;
     padding: 16px;
     flex-direction: column;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .pr-info {
@@ -394,18 +389,24 @@
     /* top: -60px; */
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    grid-template-columns: 295px;
+    grid-template-rows: 36px, 32px, 76px, 24px, 72px;
+    align-content: center;
+    align-items: center;
+  }
+
+  .portfolio-img {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    height: 220px;
+
   }
 
   .pr-title {
     position: relative;
     width: 295px;
     height: 36px;
-    top: -3px;
     grid-column: 1;
     grid-row: 1;
     font-weight: 700;
