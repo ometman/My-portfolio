@@ -586,7 +586,7 @@
     color: #396df2;
     padding: 12px;
     background: #fff;
-    border: 1px solid #dfe1e6;
+    border: 1px solid #396df2;
     border-radius: 16px;
   }
 
@@ -613,6 +613,14 @@
     list-style: none;
   }
 
+  .skill-pos {
+    color: #000;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
   ul.skill-item-selector {
     position: relative;
     height: 66px;
@@ -620,10 +628,6 @@
     padding: 0 24px 0 24px;
     width: 327px;
     display: flex;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -658,13 +662,17 @@
     padding: 0;
   }
 
+  .lang-img {
+    padding-left: 12px;
+  }
+
   .js-lang,
   .html-lang,
   .css-lang {
     height: 66px;
     position: relative;
     width: 100%;
-    background-color: #dfe1e6;
+    background-color: #f8f8f9;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -682,7 +690,6 @@
 
   a:link {
     text-decoration: none;
-    color: inherit;
   }
 
   .pr-button-tag:hover,
