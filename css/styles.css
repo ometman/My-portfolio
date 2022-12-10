@@ -602,6 +602,11 @@
     order: 1;
     flex-grow: 0;                                                                                                                     
     top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #000;
   }
 
   ul.no-style {
@@ -615,6 +620,10 @@
     padding: 0 24px 0 24px;
     width: 327px;
     display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -671,8 +680,11 @@
     list-style: none;
   }
 
+  
+
   a:link {
     text-decoration: none;
+    color: inherit;
   }
 
   .pr-button-tag:hover,
