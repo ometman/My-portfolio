@@ -12,7 +12,7 @@
     place-items: center;
     justify-content: center;
     grid-template-rows: auto;
-    background: #efefef; 
+    background: #efefef;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     margin: 0;
@@ -350,7 +350,7 @@
     border-radius: 16px;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 220px 36px 32px 76px 24px 72px;;
+    grid-template-rows: 220px 36px 32px 76px 24px 72px;
     align-items: center;
     justify-content: center;
     row-gap: 12px;
@@ -391,7 +391,7 @@
     order: 2;
   }
 
- ul.pr-type {
+  ul.pr-type {
     position: relative;
     width: 236px;
     height: 32px;
@@ -431,7 +431,7 @@
     gap: 8px;
     width: 203px;
     order: 5;
-    padding: 0px;
+    padding: 0;
   }
 
   .pr-button-tag:link {
@@ -600,7 +600,7 @@
     justify-content: center;
     padding: 0;
     order: 1;
-    flex-grow: 0;                                                                                                                     
+    flex-grow: 0;
     top: 20px;
     font-weight: 500;
     font-size: 20px;
@@ -679,8 +679,6 @@
     float: none;
     list-style: none;
   }
-
-  
 
   a:link {
     text-decoration: none;
