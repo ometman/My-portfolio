@@ -494,7 +494,7 @@
 
   .about-me-top {
     position: relative;
-    width: 375px;
+    max-width: 375px;
     height: 600px;
     display: grid;
     grid-template-columns: auto;
@@ -592,7 +592,7 @@
 
   .about-me-down {
     position: relative;
-    width: 374px;
+    max-width: 375px;
     height: 464px;
     display: flex;
     flex-direction: column;
