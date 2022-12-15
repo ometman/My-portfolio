@@ -798,7 +798,6 @@
   #email,
   #message {
     width: 273px;
-    height: 18px;
     background-color: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
@@ -808,6 +807,11 @@
     line-height: 20px;
     color: #172b4d;
   }
+
+  .name-email {
+    height: 18px;
+  }
+
 
   #username:valid,
   #email:valid,
@@ -829,16 +833,13 @@
     order: 1;
   }
 
-  .message-pos {
-    order: 2;
-  }
-
   .message {
     height: 170px;
     text-align: left;
     font-size: 18px;
     line-height: 24px;
     color: #b3bac5;
+    order: 2;
   }
 
   .submit-btn {
@@ -876,8 +877,8 @@
     height: 172px;
     width: 75px;
     left: 310px;
-    top: 21px;
-    background-color: #fff;
+    top: 31px;
+    /* background: #fff; */
     transform: rotate(1deg);
     background: url('../images/header-shapes/contact-rect-4.png') no-repeat;
   }
@@ -887,7 +888,7 @@
     height: 90px;
     width: 90px;
     left: 328px;
-    top: 48px;
+    top: 33px;
     transform: rotate(30.18deg);
     background: url('../images/header-shapes/contact-ellipse-3.png') no-repeat center;
   }
@@ -907,8 +908,7 @@
     width: 76px;
     left: 259px;
     bottom: 129px;
-    background: url(../images/header-shapes/contact-rect-7.png) no-repeat;
-    background: #7f8cff;
+    background: #7f8cff url(../images/header-shapes/contact-rect-7.png) no-repeat;
     transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
   }
 
