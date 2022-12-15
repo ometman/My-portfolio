@@ -182,8 +182,7 @@
     left: 53px;
     top: 546px;
     border: 1px solid #cbcdff;
-    background: rgb(206, 150, 150) url("../images/header-shapes/Ellipse 15.png")
-      no-repeat;
+    background: rgb(206, 150, 150) url("../images/header-shapes/Ellipse 15.png") no-repeat;
     box-sizing: border-box;
   }
 
@@ -893,8 +892,7 @@
     left: 328px;
     top: 33px;
     transform: rotate(30.18deg);
-    background: url("../images/header-shapes/contact-ellipse-3.png") no-repeat
-      center;
+    background: url("../images/header-shapes/contact-ellipse-3.png") no-repeat center;
   }
 
   .contact-ellipse-5 {
@@ -903,8 +901,7 @@
     width: 33px;
     left: 268px;
     bottom: 100px;
-    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png)
-      no-repeat center;
+    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat center;
   }
 
   .contact-rect-7 {
@@ -913,8 +910,7 @@
     width: 76px;
     left: 259px;
     bottom: 129px;
-    background: #7f8cff url(../images/header-shapes/contact-rect-7.png)
-      no-repeat;
+    background: #7f8cff url(../images/header-shapes/contact-rect-7.png) no-repeat;
     transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
   }
 
@@ -924,8 +920,7 @@
     width: 20px;
     left: 153px;
     top: 55px;
-    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat
-      center;
+    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat center;
   }
 
   .hm-indicator-light {
