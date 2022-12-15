@@ -804,7 +804,7 @@
     border-radius: 8px;
     padding: 15px 38px 15px 15px;
     font-weight: 500px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
     color: #172b4d;
   }
@@ -832,7 +832,7 @@
   #message {
     height: 170px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #b3bac5;
     order: 2;
