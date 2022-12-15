@@ -152,7 +152,7 @@
     position: absolute;
     width: 375px;
     height: 601px;
-    top: 92px;
+    top: 121px;
     overflow: hidden;
   }
 
@@ -168,10 +168,10 @@
 
   .ellipse-3 {
     position: absolute;
-    height: 50px;
-    width: 50px;
-    right: -12px;
-    top: 54px;
+    height: 105px;
+    width: 105px;
+    left: 323px;
+    top: 77px;
     background: url('../images/header-shapes/Ellipse 3.png') no-repeat;
   }
 
@@ -482,7 +482,7 @@
     position: relative;
     top: 180px;
     max-width: 375px;
-    height: 1263px;
+    height: 1493px;
     margin: 0 24px 0 24px;
     background: #fff;
     border-top-right-radius: 70px;
@@ -495,7 +495,7 @@
   .about-me-top {
     position: relative;
     width: 375px;
-    height: 600px;
+    height: 590px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -593,7 +593,7 @@
   .about-me-down {
     position: relative;
     width: 375px;
-    height: 464px;
+    height: 564px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -695,7 +695,8 @@
   .pr-button-tag:hover,
   .about-resume-action:hover,
   .pr-call-to-action-button:hover,
-  .resume:hover {
+  .resume:hover,
+  #submit-btn:hover {
     background: #2230d2;
     border-radius: 8px;
     color: #6070ff;
@@ -704,7 +705,8 @@
   .pr-button-tag:active,
   .about-resume-action:active,
   .pr-call-to-action-button:active,
-  .resume:active {
+  .resume:active,
+  #submit-btn:active {
     background: #fff;
     border: 1px solid #7c8cff;
     border-radius: 8px;
@@ -714,9 +716,220 @@
   .pr-button-tag:disabled,
   .about-resume-action:disabled,
   .pr-call-to-action-button:disabled,
-  .resume:disabled {
+  .resume:disabled,
+  #submit-btn:disabled {
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     color: #6070ff;
+  }
+
+  .contact-me-section {
+    position: relative;
+    top: -36px;
+    width: 375px;
+    margin: 0;
+    height: 844px;
+    background: #6070ff;
+    border-top-left-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    gap: 24px;
+  }
+
+  .contact-primary-text {
+    position: relative;
+    top: 103px;
+    height: 56px;
+    width: 297px;
+    padding: 0 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    order: 0;
+  }
+
+  .contact-intro-text {
+    /* Introduction Text */
+    position: relative;
+    width: 327px;
+    top: 25px;
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    order: 1;
+    flex-grow: 0;
+    flex: none;
+  }
+
+  #contact-form {
+    position: relative;
+    width: 327px;
+    height: 400px;
+    order: 2;
+    padding: 0 24px;
+    flex: none;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    z-index: 5;
+  }
+
+  ul.contact-form-items {
+    position: relative;
+    width: 327px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    order: 0;
+  }
+
+  #username,
+  #email,
+  #message {
+    width: 273px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 38px 15px 15px;
+    font-weight: 500px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  #username:valid,
+  #email:valid,
+  #message:valid {
+    border: 1px solid #008000;
+  }
+
+  #username:invalid,
+  #email:invalid,
+  #message:invalid {
+    border: 1px solid #ff0000;
+  }
+
+  #username {
+    order: 0;
+  }
+
+  #email {
+    order: 1;
+  }
+
+  #message {
+    height: 170px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b3bac5;
+    order: 2;
+  }
+
+  #submit-btn {
+    position: relative;
+    width: 140px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    order: 3;
+  }
+
+  .submit-btn-pos {
+    align-self: start;
+  }
+
+  .contact-header-shapes {
+    position: relative;
+    overflow: hidden;
+    width: 375px;
+    height: 844px;
+    top: -844px;
+    z-index: 0;
+  }
+
+  .contact-rect-4 {
+    position: absolute;
+    height: 172px;
+    width: 75px;
+    left: 310px;
+    top: 21px;
+    background: #fff;
+    transform: rotate(1deg);
+    background: url('../images/header-shapes/contact-rect-4.png') no-repeat;
+  }
+
+  .contact-ellipse-3 {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 328px;
+    top: 48px;
+    background-position: center;
+    transform: rotate(30.18deg);
+    background: url('../images/header-shapes/contact-ellipse-3.png') no-repeat;
+  }
+
+  .contact-ellipse-5 {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 268px;
+    bottom: 100px;
+    background-position: center;
+    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat;
+  }
+
+  .contact-rect-7 {
+    position: absolute;
+    height: 13px;
+    width: 76px;
+    left: 259px;
+    bottom: 129px;
+    background: url(../images/header-shapes/contact-rect-7.png) no-repeat;
+    background: #7f8cff;
+    transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+  }
+
+  .contact-ellipse-12 {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 153px;
+    top: 55px;
+    background-size: 12px 12px;
+    background-position: center;
+    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat;
+  }
+
+  .hm-indicator-light {
+    position: relative;
+    top: 42px;
+    width: 134px;
+    height: 5px;
+    border-radius: 10px;
+    background: #0d151e;
+    order: 4;
   }
 }
