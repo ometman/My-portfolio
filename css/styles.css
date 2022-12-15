@@ -762,9 +762,9 @@
     font-size: 20px;
     line-height: 28px;
     color: #fff;
+    flex: none;
     order: 1;
     flex-grow: 0;
-    flex: none;
   }
 
   #contact-form {
@@ -818,27 +818,30 @@
   #username:invalid,
   #email:invalid,
   #message:invalid {
-    border: 1px solid #ff0000;
+    border: 1px solid #f00;
   }
 
-  #username {
+  .name-pos {
     order: 0;
   }
 
-  #email {
+  .email-pos {
     order: 1;
   }
 
-  #message {
+  .message-pos {
+    order: 2;
+  }
+
+  .message {
     height: 170px;
     text-align: left;
     font-size: 18px;
     line-height: 24px;
     color: #b3bac5;
-    order: 2;
   }
 
-  #submit-btn {
+  .submit-btn {
     position: relative;
     width: 140px;
     height: 48px;
@@ -849,7 +852,6 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
-    padding: 12px;
     background: #fff;
     border: 1px solid #396df2;
     border-radius: 8px;
@@ -875,7 +877,7 @@
     width: 75px;
     left: 310px;
     top: 21px;
-    background: #fff;
+    background-color: #fff;
     transform: rotate(1deg);
     background: url('../images/header-shapes/contact-rect-4.png') no-repeat;
   }
@@ -886,9 +888,8 @@
     width: 90px;
     left: 328px;
     top: 48px;
-    background-position: center;
     transform: rotate(30.18deg);
-    background: url('../images/header-shapes/contact-ellipse-3.png') no-repeat;
+    background: url('../images/header-shapes/contact-ellipse-3.png') no-repeat center;
   }
 
   .contact-ellipse-5 {
@@ -897,8 +898,7 @@
     width: 33px;
     left: 268px;
     bottom: 100px;
-    background-position: center;
-    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat;
+    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat center;
   }
 
   .contact-rect-7 {
@@ -918,8 +918,7 @@
     width: 20px;
     left: 153px;
     top: 55px;
-    background-position: center;
-    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat;
+    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat center;
   }
 
   .hm-indicator-light {
