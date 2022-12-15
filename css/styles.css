@@ -914,11 +914,10 @@
 
   .contact-ellipse-12 {
     position: absolute;
-    height: 35px;
-    width: 35px;
+    height: 20px;
+    width: 20px;
     left: 153px;
     top: 55px;
-    background-size: 12px 12px;
     background-position: center;
     background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat;
   }
