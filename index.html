@@ -148,13 +148,13 @@
                             no accounts or sign-ups required.
                         </p>
                          <!--position row 5 for language tags -->
-                         <ul class="pr-button-tag-container no-style">
+                         
                             <ul class="pr-button-tag-container no-style">
                                 <li><a href="#" class="pr-button-tag"> html </a></li>
                                 <li><a href="#" class="pr-button-tag"> css </a></li>
                                 <li><a href="#" class="pr-button-tag button"> javascript </a></li>
                             </ul>
-                        </ul>
+                        
                          <!--position row 6 for action button -->
                          <div class="pr-call-to-action-box">
                             <a href="#" class="pr-call-to-action-button"> See Project</a>
@@ -183,11 +183,9 @@
                         </p>
                         <!--position row 5 for language tags -->
                         <ul class="pr-button-tag-container no-style">
-                            <ul class="pr-button-tag-container no-style">
-                                <li><a href="#" class="pr-button-tag"> html </a></li>
-                                <li><a href="#" class="pr-button-tag"> css </a></li>
-                                <li><a href="#" class="pr-button-tag button"> javascript </a></li>
-                            </ul>
+                            <li><a href="#" class="pr-button-tag"> html </a></li>
+                            <li><a href="#" class="pr-button-tag"> css </a></li>
+                            <li><a href="#" class="pr-button-tag button"> javascript </a></li>
                         </ul>
                         <!--position row 6 for action button to see resume -->
                         <div class="pr-call-to-action-box">
@@ -200,9 +198,9 @@
     <!--Top begins here - Text intro social connect , social icons and action button-->
 
                 <div class="about-me-top">
-                    <h1 class="about-primary-text">
+                    <h2 class="about-primary-text">
                         About <br> Myself
-                    </h1> 
+                    </h2> 
                     <p class="about-intro-text">
                         Hello, I&#39;m a software developer! <br> I can help you build a software product, feature or website. 
                         Take a look at some of my works and experience! If you like what you see and 
@@ -236,7 +234,7 @@
                         
                            
                         <li>
-                         <a href="#">   <img class="item-icon" src="./images/icons/button-icon.png" alt="language item selector button"></a>
+                         <a href="#">   <img class="item-icon" src="./images/icons/button-icon-dn.png" alt="language item selector button"></a>
                         </li>
                          
                     </ul>
@@ -260,7 +258,7 @@
                             
                             
                                 <li class="select-size">
-                               <a href="#">     <img class="item-icon" src="./images/icons/button-icon.png" alt="frameworks selector button"></a> 
+                               <a href="#">     <img class="item-icon" src="./images/icons/button-icon-rt.png" alt="frameworks selector button"></a> 
                                 </li>
                             
                         </ul>
@@ -275,7 +273,7 @@
                             
                             
                                 <li>
-                                <a href="#"><img class="item-icon" src="./images/icons/button-icon.png" alt="skill selector button"></a> 
+                                <a href="#"><img class="item-icon" src="./images/icons/button-icon-rt.png" alt="skill selector button"></a> 
                                 </li>
                             </a> 
                         </ul>
@@ -284,5 +282,43 @@
                 </div> 
 
             </section>
+            <!--Contact me section begins here -->
+            <section class="contact-me-section">
+                
+                    <h2 class="contact-primary-text">
+                    Contact me                    
+                </h2>
+                <p class="contact-intro-text">
+                    If you have an application you are interested 
+                    in developing, a feature that you need built or a 
+                    project that needs coding. I&#39;d love to help with it 
+                </p>
+                <form id="contact-form" name="message-form" action="https://formspree.io/f/{contact-form}" method="post" enctype="multipart/form-data">
+                    <ul class="contact-form-items">
+                        <li class="contact-form-pos">
+                           <input id="username" name="user_name" type="text" maxlength="30" placeholder="Yeremias" required />
+                        </li>
+                        <li class="contact-form-pos">
+                            <input id="email" name="user_email" type="email" placeholder="natajayanj14@gmail.com" required/>
+                        </li>
+                        <li class="contact-form-pos">
+                            <textarea id="message" name="user_message" maxlength="500" type="text" required placeholder="Write your message here"></textarea>
+                            </textarea>
+                        </li>
+                        <li class="submit-btn-pos">
+                            <button id="submit-btn" name="submit" type="submit"> Get In touch </button>
+                        </li>
+                    </ul>
+                </form>
+                <hr class="hm-indicator-light">
+            </section>
+            <section class="contact-header-shapes"> <!-- add contact me - images-->
+                <div class="contact-rect-4"></div>
+                <div class="contact-ellipse-3"></div>
+                <div class="contact-ellipse-12"></div>
+                <div class="contact-ellipse-5"></div>
+                <div class="contact-rect-7"></div>
+
+           </section>
     </body>
 </html>
