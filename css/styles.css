@@ -2,16 +2,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
-@media screen and (min-width: 375px), (min-width: 600px), (min-width: 1440px) {
+@media screen and (min-width: 375px) {  
+
   html,
   body {
-    max-width: 100%;
-    height: auto;
+    max-width: 100vw;
+    max-height: 100vh;
     display: grid;
     grid-template-columns: auto;
     place-items: center;
     justify-content: center;
-    grid-template-rows: auto;
     background: #efefef;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -26,10 +26,10 @@
 
   .header {
     position: relative;
-    max-width: 375px;
+    max-width: 100%;
     height: 48px;
     top: 44px;
-    margin: 0 auto 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex: none;
@@ -43,6 +43,7 @@
     /* relative position for background */
     position: relative;
     width: 375px;
+    margin: auto;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -98,9 +99,9 @@
 
   .headline-section {
     position: relative;
-    height: 670px;
+    height: 626px;
     max-width: 375px;
-    top: 44px auto 0 auto;
+    margin: 0 auto;
     display: flex;
     border-bottom-left-radius: 70px;
     flex-direction: column;
@@ -152,8 +153,9 @@
     position: absolute;
     width: 375px;
     height: 601px;
-    top: 121px;
+    top: 83px;
     overflow: hidden;
+    z-index: 5;
   }
 
   .rect-4 {
@@ -328,23 +330,39 @@
 
   .works-section {
     position: relative;
-    height: auto;
+    height: 2700px;
     display: grid;
-    top: 0;
-    padding: 114px 24px 114px 24px;
+    margin: 114px 24px 0 24px;
     grid-template-columns: auto;
     place-items: center;
     justify-content: center;
-    grid-template-rows: 552px 552px 552px 552px;
-    row-gap: 68px;
+    grid-template-rows: 552px 596px 552px 596px;
+    background-color: #efefef;
+    row-gap: 88px;
   }
 
-  .card {
+  .card1 {
     position: relative;
     width: 327px;
     height: 552px;
     padding: 16px;
-    top: 114px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 220px 36px 32px 76px 24px 72px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .card2 {
+    position: relative;
+    width: 327px;
+    height: 596px;
+    padding: 16px;
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -480,35 +498,35 @@
 
   .about-me-section {
     position: relative;
-    top: 180px;
     max-width: 375px;
-    height: 1493px;
+    height: 1212px;
     margin: 0 24px 0 24px;
     background: #fff;
     border-top-right-radius: 70px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
+    justify-content: start;
     gap: 4px;
   }
 
   .about-me-top {
     position: relative;
     width: 375px;
-    height: 590px;
+    height: 409px;
+    padding: 0;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 24px;
     order: 0;
     flex-grow: 0;
-    background-color: #fff;
   }
 
   .about-primary-text {
     position: relative;
     top: 114px;
-    max-width: 375px;
+    max-width: 327px;
     padding: 0 24px 0 24px;
     font-weight: 700;
     font-size: 40px;
@@ -520,7 +538,7 @@
   .about-intro-text {
     /* Introduction Text */
     position: relative;
-    max-width: 375px;
+    max-width: 327px;
     top: 52px;
     padding: 0 24px 0 24px;
     font-weight: 400;
@@ -593,7 +611,7 @@
   .about-me-down {
     position: relative;
     width: 375px;
-    height: 564px;
+    height: 464px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -601,7 +619,7 @@
     padding: 0;
     order: 1;
     flex-grow: 0;
-    top: 20px;
+    top: 190px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -723,28 +741,34 @@
     color: #6070ff;
   }
 
+  .hm-footer {
+    position: relative;
+    margin: 0 24px 0 24px;
+    width: 375px;
+    height: 860px;
+    background: #fff;
+  }
+
   .contact-me-section {
     position: relative;
-    top: -36px;
     width: 375px;
     margin: 0;
-    height: 844px;
+    height: 834px;
     background: #6070ff;
     border-top-left-radius: 70px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-items: center;
-    gap: 24px;
+    order: 0;
   }
 
   .contact-primary-text {
     position: relative;
     top: 103px;
     height: 56px;
-    width: 297px;
-    padding: 0 24px;
+    width: 327px;
+    padding: 0 24px 0 24px;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -756,7 +780,7 @@
     /* Introduction Text */
     position: relative;
     width: 327px;
-    top: 25px;
+    top: 56px;
     padding: 0 24px;
     font-weight: 400;
     font-size: 20px;
@@ -770,8 +794,9 @@
   #contact-form {
     position: relative;
     width: 327px;
-    height: 400px;
+    height: 464px;
     order: 2;
+    top: 38px;
     padding: 0 24px;
     flex: none;
     flex-grow: 0;
@@ -779,7 +804,6 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    z-index: 5;
   }
 
   ul.contact-form-items {
@@ -862,17 +886,12 @@
     align-self: start;
   }
 
-  footer {
-    height: 30vh;
-  }
-
   .contact-header-shapes {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     width: 375px;
-    height: 844px;
-    top: -844px;
-    z-index: 0;
+    height: 786px;
+    top: 50px;
   }
 
   .contact-rect-4 {
@@ -900,7 +919,7 @@
     height: 33px;
     width: 33px;
     left: 268px;
-    bottom: 100px;
+    bottom: 65px;
     background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat center;
   }
 
@@ -909,7 +928,7 @@
     height: 13px;
     width: 76px;
     left: 259px;
-    bottom: 129px;
+    bottom: 94px;
     background: #7f8cff url(../images/header-shapes/contact-rect-7.png) no-repeat;
     transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
   }
@@ -925,7 +944,7 @@
 
   .hm-indicator-light {
     position: relative;
-    top: 42px;
+    top: 44px;
     width: 134px;
     height: 5px;
     border-radius: 10px;
