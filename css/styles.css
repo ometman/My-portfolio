@@ -2,16 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
-@media screen and (min-width: 375px), (min-width: 600px), (min-width: 1440px) {
+@media screen and (min-width: 375px) {
   html,
   body {
-    max-width: 100%;
-    height: auto;
+    max-width: 100vw;
+    max-height: 100vh;
     display: grid;
     grid-template-columns: auto;
     place-items: center;
     justify-content: center;
-    grid-template-rows: auto;
     background: #efefef;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -26,10 +25,10 @@
 
   .header {
     position: relative;
-    max-width: 375px;
+    max-width: 100%;
     height: 48px;
     top: 44px;
-    margin: 0 auto 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex: none;
@@ -43,6 +42,7 @@
     /* relative position for background */
     position: relative;
     width: 375px;
+    margin: auto;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -98,9 +98,9 @@
 
   .headline-section {
     position: relative;
-    height: 670px;
+    height: 626px;
     max-width: 375px;
-    top: 44px auto 0 auto;
+    margin: 0 auto;
     display: flex;
     border-bottom-left-radius: 70px;
     flex-direction: column;
@@ -152,8 +152,9 @@
     position: absolute;
     width: 375px;
     height: 601px;
-    top: 92px;
+    top: 83px;
     overflow: hidden;
+    z-index: 5;
   }
 
   .rect-4 {
@@ -163,16 +164,16 @@
     left: 297px;
     top: 65px;
     transform: rotate(-30deg);
-    background: #ebebff url('../images/header-shapes/Rectangle 4.png') no-repeat;
+    background: #ebebff url("../images/header-shapes/Rectangle 4.png") no-repeat;
   }
 
   .ellipse-3 {
     position: absolute;
-    height: 50px;
-    width: 50px;
-    right: -12px;
-    top: 54px;
-    background: url('../images/header-shapes/Ellipse 3.png') no-repeat;
+    height: 105px;
+    width: 105px;
+    left: 323px;
+    top: 77px;
+    background: url("../images/header-shapes/Ellipse 3.png") no-repeat;
   }
 
   .ellipse-15 {
@@ -182,7 +183,7 @@
     left: 53px;
     top: 546px;
     border: 1px solid #cbcdff;
-    background: rgb(206, 150, 150) url('../images/header-shapes/Ellipse 15.png') no-repeat;
+    background: rgb(206, 150, 150) url("../images/header-shapes/Ellipse 15.png") no-repeat;
     box-sizing: border-box;
   }
 
@@ -193,7 +194,7 @@
     left: 288px;
     top: 246px;
     border: 1px solid #cbcdff;
-    background: #fff url('../images/header-shapes/Ellipse 14.png') no-repeat;
+    background: #fff url("../images/header-shapes/Ellipse 14.png") no-repeat;
   }
 
   .ellipse-8 {
@@ -203,7 +204,7 @@
     left: 214px;
     top: 45px;
     border: 1px solid #cbcdff;
-    background: #fff url('../images/header-shapes/Ellipse 8.png') no-repeat;
+    background: #fff url("../images/header-shapes/Ellipse 8.png") no-repeat;
   }
 
   .ellipse-11 {
@@ -213,7 +214,7 @@
     left: -11px;
     top: 47px;
     transform: rotate(0.88deg);
-    background: url('../images/header-shapes/Ellipse 11.png') no-repeat;
+    background: url("../images/header-shapes/Ellipse 11.png") no-repeat;
   }
 
   .rect-6 {
@@ -222,7 +223,7 @@
     width: 51.99px;
     left: -35px;
     top: 9px;
-    background: #ebebff url('../images/header-shapes/Rectangle 6.png') no-repeat;
+    background: #ebebff url("../images/header-shapes/Rectangle 6.png") no-repeat;
     transform: rotate(-46.14deg);
   }
 
@@ -233,7 +234,7 @@
     left: 317px;
     top: 447px;
     transform: rotate(4.88deg);
-    background: url('../images/header-shapes/Ellipse 12.png') no-repeat;
+    background: url("../images/header-shapes/Ellipse 12.png") no-repeat;
   }
 
   .ellipse-13 {
@@ -243,7 +244,7 @@
     left: 305.18px;
     top: 456.44px;
     transform: rotate(12.41deg);
-    background: url('../images/header-shapes/Ellipse 13.png') no-repeat;
+    background: url("../images/header-shapes/Ellipse 13.png") no-repeat;
   }
 
   .ellipse-4 {
@@ -252,7 +253,7 @@
     width: 20px;
     left: 212px;
     top: 532px;
-    background: url('../images/header-shapes/Ellipse 4.png') no-repeat;
+    background: url("../images/header-shapes/Ellipse 4.png") no-repeat;
   }
 
   .rect-5 {
@@ -262,7 +263,7 @@
     left: 173px;
     top: 546px;
     transform: rotate(23.34deg);
-    background: url('../images/header-shapes/Rectangle 5.png') #ebebff no-repeat;
+    background: url("../images/header-shapes/Rectangle 5.png") #ebebff no-repeat;
   }
 
   .ellipse-5 {
@@ -272,7 +273,7 @@
     left: 132px;
     top: 79px;
     transform: rotate(52.97deg);
-    background: url('../images/header-shapes/Ellipse 5.png') no-repeat;
+    background: url("../images/header-shapes/Ellipse 5.png") no-repeat;
   }
 
   .rect-7 {
@@ -282,7 +283,7 @@
     left: 129px;
     top: 76px;
     transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-    background: url('../images/header-shapes/Rectangle 7.png') no-repeat;
+    background: url("../images/header-shapes/Rectangle 7.png") no-repeat;
     background: #6070ff;
   }
 
@@ -328,23 +329,39 @@
 
   .works-section {
     position: relative;
-    height: auto;
+    height: 2700px;
     display: grid;
-    top: 0;
-    padding: 114px 24px 114px 24px;
+    margin: 114px 24px 0 24px;
     grid-template-columns: auto;
     place-items: center;
     justify-content: center;
-    grid-template-rows: 552px 552px 552px 552px;
-    row-gap: 68px;
+    grid-template-rows: 552px 596px 552px 596px;
+    background-color: #efefef;
+    row-gap: 88px;
   }
 
-  .card {
+  .card1 {
     position: relative;
     width: 327px;
     height: 552px;
     padding: 16px;
-    top: 114px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 220px 36px 32px 76px 24px 72px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+    box-sizing: border-box;
+  }
+
+  .card2 {
+    position: relative;
+    width: 327px;
+    height: 596px;
+    padding: 16px;
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -480,35 +497,35 @@
 
   .about-me-section {
     position: relative;
-    top: 180px;
     max-width: 375px;
-    height: 1263px;
+    height: 1212px;
     margin: 0 24px 0 24px;
     background: #fff;
     border-top-right-radius: 70px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
+    justify-content: start;
     gap: 4px;
   }
 
   .about-me-top {
     position: relative;
     width: 375px;
-    height: 600px;
+    height: 409px;
+    padding: 0;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 24px;
     order: 0;
     flex-grow: 0;
-    background-color: #fff;
   }
 
   .about-primary-text {
     position: relative;
     top: 114px;
-    max-width: 375px;
+    max-width: 327px;
     padding: 0 24px 0 24px;
     font-weight: 700;
     font-size: 40px;
@@ -520,7 +537,7 @@
   .about-intro-text {
     /* Introduction Text */
     position: relative;
-    max-width: 375px;
+    max-width: 327px;
     top: 52px;
     padding: 0 24px 0 24px;
     font-weight: 400;
@@ -601,7 +618,7 @@
     padding: 0;
     order: 1;
     flex-grow: 0;
-    top: 20px;
+    top: 190px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -695,7 +712,8 @@
   .pr-button-tag:hover,
   .about-resume-action:hover,
   .pr-call-to-action-button:hover,
-  .resume:hover {
+  .resume:hover,
+  #submit-btn:hover {
     background: #2230d2;
     border-radius: 8px;
     color: #6070ff;
@@ -704,7 +722,8 @@
   .pr-button-tag:active,
   .about-resume-action:active,
   .pr-call-to-action-button:active,
-  .resume:active {
+  .resume:active,
+  #submit-btn:active {
     background: #fff;
     border: 1px solid #7c8cff;
     border-radius: 8px;
@@ -714,9 +733,221 @@
   .pr-button-tag:disabled,
   .about-resume-action:disabled,
   .pr-call-to-action-button:disabled,
-  .resume:disabled {
+  .resume:disabled,
+  #submit-btn:disabled {
     border: 1px solid #c1c7d0;
     border-radius: 8px;
     color: #6070ff;
+  }
+
+  .hm-footer {
+    position: relative;
+    margin: 0 24px 0 24px;
+    width: 375px;
+    height: 860px;
+    background: #fff;
+  }
+
+  .contact-me-section {
+    position: relative;
+    width: 375px;
+    margin: 0;
+    height: 834px;
+    background: #6070ff;
+    border-top-left-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    order: 0;
+  }
+
+  .contact-primary-text {
+    position: relative;
+    top: 103px;
+    height: 56px;
+    width: 327px;
+    padding: 0 24px 0 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    order: 0;
+  }
+
+  .contact-intro-text {
+    /* Introduction Text */
+    position: relative;
+    width: 327px;
+    top: 56px;
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #contact-form {
+    position: relative;
+    width: 327px;
+    height: 464px;
+    order: 2;
+    top: 38px;
+    padding: 0 24px;
+    flex: none;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  ul.contact-form-items {
+    position: relative;
+    width: 327px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    order: 0;
+  }
+
+  #username,
+  #email,
+  #message {
+    width: 273px;
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 38px 15px 15px;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #172b4d;
+  }
+
+  .name-email {
+    height: 18px;
+  }
+
+  #username:valid,
+  #email:valid,
+  #message:valid {
+    border: 1px solid #008000;
+  }
+
+  #username:invalid,
+  #email:invalid,
+  #message:invalid {
+    border: 1px solid #f00;
+  }
+
+  .name-pos {
+    order: 0;
+  }
+
+  .email-pos {
+    order: 1;
+  }
+
+  .message {
+    height: 170px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b3bac5;
+    order: 2;
+  }
+
+  .submit-btn {
+    position: relative;
+    width: 140px;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background: #fff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    order: 3;
+  }
+
+  .submit-btn-pos {
+    align-self: start;
+  }
+
+  .contact-header-shapes {
+    position: absolute;
+    overflow: hidden;
+    width: 375px;
+    height: 786px;
+    top: 50px;
+  }
+
+  .contact-rect-4 {
+    position: absolute;
+    height: 172px;
+    width: 75px;
+    left: 310px;
+    top: 31px;
+    transform: rotate(1deg);
+    background: url("../images/header-shapes/contact-rect-4.png") no-repeat;
+  }
+
+  .contact-ellipse-3 {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 328px;
+    top: 33px;
+    transform: rotate(30.18deg);
+    background: url("../images/header-shapes/contact-ellipse-3.png") no-repeat center;
+  }
+
+  .contact-ellipse-5 {
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    left: 268px;
+    bottom: 65px;
+    background: #6070ff url(../images/header-shapes/contact-ellipse-5.png) no-repeat center;
+  }
+
+  .contact-rect-7 {
+    position: absolute;
+    height: 13px;
+    width: 76px;
+    left: 259px;
+    bottom: 94px;
+    background: #7f8cff url(../images/header-shapes/contact-rect-7.png) no-repeat;
+    transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+  }
+
+  .contact-ellipse-12 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 153px;
+    top: 55px;
+    background: url(../images/header-shapes/contact-ellipse-12.png) no-repeat center;
+  }
+
+  .hm-indicator-light {
+    position: relative;
+    top: 44px;
+    width: 134px;
+    height: 5px;
+    border-radius: 10px;
+    background: #0d151e;
+    order: 4;
   }
 }
